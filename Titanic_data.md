@@ -157,7 +157,7 @@ sns.heatmap(train.isnull(),yticklabels=False,cbar=False,cmap='viridis')
 
 
     
-![EDA](output_5_1.png)
+![](EDA/output_5_1.png)
     
 
 
@@ -178,7 +178,7 @@ sns.countplot(x='Survived',data=train,palette='RdBu_r')
 
 
     
-![png](output_7_1.png)
+![](EDA/output_7_1.png)
     
 
 
@@ -197,7 +197,7 @@ sns.countplot(x='Survived',hue='Sex',data=train,palette='RdBu_r')
 
 
     
-![png](output_8_1.png)
+![](EDA/output_8_1.png)
     
 
 
@@ -216,7 +216,7 @@ sns.countplot(x='Survived',hue='Pclass',data=train,palette='rainbow')
 
 
     
-![png](output_9_1.png)
+![](EDA/output_9_1.png)
     
 
 
@@ -238,7 +238,7 @@ sns.distplot(train['Age'].dropna(),kde=False,color='darkred',bins=30)
 
 
     
-![png](output_10_2.png)
+![](EDA/output_10_2.png)
     
 
 
@@ -256,7 +256,7 @@ train['Age'].hist(bins=30,color='darkred',alpha=0.7)
 
 
     
-![png](output_11_1.png)
+![](EDA/output_11_1.png)
     
 
 
@@ -274,7 +274,7 @@ sns.countplot(x='SibSp',data=train)
 
 
     
-![png](output_12_1.png)
+![](EDA/output_12_1.png)
     
 
 
@@ -292,7 +292,7 @@ train['Fare'].hist(color='green',bins=40,figsize=(8,4))
 
 
     
-![png](output_13_1.png)
+![](EDA/output_13_1.png)
     
 
 
@@ -318,7 +318,7 @@ sns.boxplot(x='Pclass',y='Age',data=train,palette='winter')
 
 
     
-![png](output_15_1.png)
+![](EDA/output_15_1.png)
     
 
 
@@ -368,7 +368,7 @@ sns.heatmap(train.isnull(),yticklabels=False,cbar=False,cmap='viridis')
 
 
     
-![png](output_21_1.png)
+![](EDA/output_21_1.png)
     
 
 
