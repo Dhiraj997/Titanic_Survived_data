@@ -157,7 +157,7 @@ sns.heatmap(train.isnull(),yticklabels=False,cbar=False,cmap='viridis')
 
 
     
-![png](output_5_1.png)
+![EDA](output_5_1.png)
     
 
 
